@@ -26,7 +26,7 @@ class SignIn extends Component<SignInProps> {
   handleSubmit = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.persist();
     e.preventDefault();
-    console.log(e);
+    console.log(this.state);
   };
 
   render() {
