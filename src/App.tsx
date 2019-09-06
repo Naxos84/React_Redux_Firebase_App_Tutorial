@@ -6,6 +6,10 @@ import ProjectDetails from "./components/projects/projectdetails";
 import SignIn from "./components/auth/signin";
 import SignUp from "./components/auth/signup";
 import CreateProject from "./components/projects/createproject";
+import { Action } from "redux";
+
+export interface AppState {}
+export interface AppAction extends Action {}
 
 export class App extends Component {
   render() {
