@@ -1,2 +1,0 @@
-# React_Redux_Firebase_App_Tutorial
-Created with CodeSandbox
