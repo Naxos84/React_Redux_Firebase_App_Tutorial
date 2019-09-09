@@ -7,8 +7,14 @@ import SignIn from "./components/auth/signin";
 import SignUp from "./components/auth/signup";
 import CreateProject from "./components/projects/createproject";
 import { Action } from "redux";
+import { AuthState } from "./store/reducers/authreducer";
+import { ProjectState } from "./store/reducers/projectreducer";
 
-export interface AppState {}
+export interface AppState {
+  auth: AuthState;
+  project: ProjectState;
+}
+
 export interface AppAction extends Action {}
 
 export class App extends Component {

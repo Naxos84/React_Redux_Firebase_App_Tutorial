@@ -1,6 +1,8 @@
-import { AppState, AppAction } from "../../App";
-const initState: AppState = {};
-const authReducer = (state: AppState = initState, action: AppAction) => {
+export interface AuthState {}
+
+interface AuthAction {}
+const initState: AuthState = {};
+const authReducer = (state: AuthState = initState, action: AuthAction) => {
   return state;
 };
 
